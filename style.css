@@ -1,0 +1,91 @@
+.base
+{
+ border: 2px solid rgb(10, 10, 10);
+ padding: 1%;
+height: 100%;
+background-image: url('back.jpg');
+background-size: 100% 100%;
+}
+h1{
+    background-color: orange;
+    padding: 3vh;
+    color: white;
+}
+li{
+    background-color: lightblue;
+    margin: 1em;
+}
+input
+{
+    font-size: 5vh;
+}
+.att
+{
+    font-size: 3vh;
+    border:2px solid teal;
+}
+.input-box
+{
+   
+    padding: 1%;
+    text-align: center;
+    height: 100%;
+  
+}
+.dis_task
+{
+    padding: 1%;
+   
+    height: 50vh;
+    font-size: 3vh;
+}
+
+.edit_task
+{
+    display: none;
+    font-size: 4vh;
+}
+.edit{
+    font-size: 3vh;
+    border:2px solid gold;
+}
+.delete
+{
+    font-size: 3vh;
+    border:2px solid teal;
+}
+
+.pending
+{
+   
+    padding: 1%;
+    width: 40%;
+    height: 90%;
+    float: left;
+}
+.red
+{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+.green
+{ background-color: green;
+    text-align: center;
+color: white;
+font-size: 5vh;
+}
+#task_input
+{
+    border-color: teal;
+    margin-bottom: 1%;
+}
+.done
+{
+   
+    padding: 1%;
+    width: 40%;
+    float: right;
+    height: 90%;
+}
